@@ -1,0 +1,24 @@
+{
+  "name": "avaliacaonodeapi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/arthurcsantangelo/AvaliacaoNodeAPI#readme",
+  "bugs": {
+    "url": "https://github.com/arthurcsantangelo/AvaliacaoNodeAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurcsantangelo/AvaliacaoNodeAPI.git"
+  },
+  "license": "ISC",
+  "author": "Arthur Carlo Della Favera Santangelo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
