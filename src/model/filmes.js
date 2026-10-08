@@ -23,29 +23,24 @@ const filmes = new Array(
 class Filme  {
 
     Buscar() {
-
         return filmes
 
     }
 
     BuscarUm(id) {
-
         return filmes[id]
     }
 
     Criar(titulo, classificaao, descricao, lancamento ) {
-
         filmes.push({titulo, classificaao, descricao, lancamento})
     }
 
     Alterar(id, nome, idade) {
-
         filmes[id].nome = nome
         filmes[id].idade = idade
     }
 
     Deletar(id) {
-
         filmes.splice(id, 1)
     }
 

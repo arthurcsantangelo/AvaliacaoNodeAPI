@@ -1,4 +1,4 @@
-import Filme from '../model/filmes.js'
+import Filme from '../model/filme.js'
 class ServiceFilme {
    Buscar() {
        return Filme.Buscar()
